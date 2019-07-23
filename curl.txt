@@ -1,0 +1,7 @@
+curl -X POST -H "Authorization: key=PRIVATE_KEY" -H "Content-Type: application/json" -d '{
+  "notification": {
+    "body" : "This is a Firebase Cloud Messaging Topic Message!",
+    "title" : "FCM Message",
+  },	
+  "to": "DEVICE_TOKEN"
+}' "https://fcm.googleapis.com/fcm/send"

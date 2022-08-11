@@ -7,12 +7,12 @@ importScripts('https://www.gstatic.com/firebasejs/5.0.1/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/5.0.1/firebase-messaging.js');
 
 var config = {
-    apiKey: "AIzaSyC8gBAHVqDfiRcd5zDHruBYLuHqJ_rNnnA",
+    apiKey: "YOUR_API_KEY",
     authDomain: "webpush-local.firebaseapp.com",
     databaseURL: "https://webpush-local.firebaseio.com",
     projectId: "webpush-local",
     storageBucket: "webpush-local.appspot.com",
-    messagingSenderId: "218308799088"
+    messagingSenderId: "YOUR_ID"
   };
   firebase.initializeApp(config);
 
